@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.social-buttons-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://th.bing.com/th/id/OIP.8yIWo2WRU4klbwTUL4If1AHaE8?pid=ImgDet&rs=1");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(131, 216, 231);
+}
+
+.nav-items-list {
+  display: flex;
+  align-items: left;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.image {
+  height: 70px;
+  width: 120px;
+}
+
+.nav-item {
+  color: red;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  border-color: red;
+  border-width: 5px;
+}
+
+.car {
+  height: 450px;
+  width: 700px;
+  padding: 15px;
+  border-radius: 40px;
+}
+.heading {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Roboto";
+  color: rgb(245, 246, 250);
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-style: italic;
+  color: rgb(248, 242, 242);
+}
+.description {
+  padding-top: 50px;
+  margin:5px;
+}
+.each {
+  background-color: rgb(19, 20, 20);
+  display: flex;
+  border: rgb(243, 186, 186) 2px solid;
+  margin: 10px;
+  border-radius: 15px;
+}
+.button {
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 13px;
+  background-color: rgb(82, 82, 236);
+  color: white;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.listed {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Bree Serif";
+  color: rgb(245, 238, 238);
+}
+.span {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Bree Serif";
+  color: rgb(248, 248, 250);
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+}
+.paras {
+  height: 25px;
+  width: 60px;
+  background-color: green;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Roboto";
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  text-align: center;
+}
+.book {
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 13px;
+  background-color:blue;
+  color: rgb(247, 242, 242);
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.para {
+  height: 25px;
+  width: 100px;
+  background-color: rgb(230, 95, 95);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Roboto";
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  text-align: center;
+}
